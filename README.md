@@ -1,60 +1,76 @@
 # Hi, I'm Roshan Sah! 👋
 
-I'm a Data Engineer passionate about designing and optimizing robust, scalable data pipelines. My work spans end-to-end ETL processes, advanced data transformation, geospatial processing, cloud integrations, and machine learning projects—combining real-world data challenges with cutting-edge analytical techniques.
+I'm a **Data Engineer** passionate about designing and optimizing **robust, scalable data pipelines**.  
+My work focuses on **ETL automation, data transformation, geospatial analytics, cloud integrations,** and **AI-powered data extraction**, combining engineering precision with emerging AI technologies.
 
 ---
 
 ## 🔧 Expertise & Experience
 
 ### **Data Engineering & ETL Pipelines**
-- **End-to-End ETL Development:**  
-  - Designed and led projects that extract data from APIs and AWS S3 (with pagination and validation), transform data with custom logic, and load it into PostgreSQL.
-- **Automation & Performance Optimization:**  
-  - Automated ETL processes for multi-state oil & gas production datasets using Python, Pandas, and Apache Spark, reducing processing time by **60%**.
-- **Cloud Integration & Data Migration:**  
-  - Utilized AWS services such as S3, EC2, Glue, Lambda, ECS, MWAA, RDS, and Secrets Manager to optimize data pipelines.
-  - Migrated legacy data from MongoDB to PostgreSQL while ensuring data integrity and performance improvements.
+- Designed and implemented end-to-end ETL workflows extracting data from APIs and AWS S3 with pagination, validation, transformation, and PostgreSQL integration.  
+- Automated multi-state oil & gas ETL pipelines using Python, Pandas, and Apache Spark.  
+- Leveraged AWS services — **S3, EC2, Glue, Lambda, ECS, MWAA, RDS,** and **Secrets Manager** — for orchestration and automation.  
+- Migrated and restructured data systems from **MongoDB** to **PostgreSQL** for better schema consistency and scalability.
+
+---
 
 ### **Advanced Data Transformation & Geospatial Processing**
-- **Complex Data Transformation:**  
-  - Developed robust logic to handle date formatting, JSON-style columns, missing values, and coordinate validations.
-- **Directional Survey Processing:**  
-  - Built scripts for merging CSV files, applying cubic spline interpolation, and performing coordinate transformations.
-  - Leveraged **Pyproj** and **Shapely** to convert wellbore survey data into precise 2D/3D LineString geometries and organized outputs in AWS S3 for efficient workflows.
+- Developed transformation logic for complex data fields (JSON columns, date normalization, coordinate validation).  
+- Processed directional survey data by merging CSVs, applying cubic-spline interpolation, and performing coordinate transformations.  
+- Utilized **PyProj** and **Shapely** to convert wellbore survey data into **2D/3D LineString geometries**, managing geospatial data in AWS S3 and PostgreSQL/PostGIS.
+
+---
 
 ### **Cloud-Based Monitoring & Security**
-- **Real-Time Data Integration:**  
-  - Integrated REST APIs to retrieve and process real-time permit and well data from various state energy departments.
-- **Secure Cloud Architectures:**  
-  - Configured EC2 Security Groups, VPC settings, and IAM roles (following the least privilege principle) to safeguard communications between services.
-- **CloudWatch Alerts for Slack – Database Monitor:**  
-  - Developed an integration connecting AWS CloudWatch with Slack to monitor critical database metrics.
-  - Configured CloudWatch to track performance indicators (like CPU usage, memory, slow query, IOPS) and trigger alerts via AWS Lambda and SNS, enabling proactive incident response.
+- Integrated REST APIs for real-time well and permit data from multiple state energy agencies.  
+- Configured **EC2 Security Groups**, **VPC**, and **IAM** policies for secure, least-privilege AWS architectures.  
+- Implemented **AWS CloudWatch → Slack** alerting pipelines using **Lambda** and **SNS** to monitor RDS, EC2, and performance metrics.
 
-### **Academic Machine Learning Projects**
-- **Model Development & Evaluation:**  
-  - Completed multiple academic projects involving classification, regression, clustering, and neural networks.
-  - Utilized popular ML libraries (scikit-learn, TensorFlow, PyTorch) for model building, feature engineering, hyperparameter tuning, and evaluation.
-- **End-to-End Workflows:**  
-  - Conducted comprehensive exploratory data analysis (EDA), data preprocessing, model training, and deployment—demonstrating practical ML solutions across diverse domains.
+---
+
+### **AI & Machine Learning Applications**
+- Integrated **Google Gemini API** for AI-assisted document parsing and metadata extraction from unstructured files.  
+- Applied **scikit-learn**, **TensorFlow**, and **PyTorch** for model development, feature engineering, and evaluation.  
+- Built ML-ready data workflows combining structured and unstructured data sources.
+
+---
+
+## 🧠 Featured Projects
+
+### **AI-Driven Data Extraction**
+Automated directional survey document parsing using Google Gemini API, AWS S3, and PostgreSQL for structured metadata extraction and ingestion.
+
+### **Geospatial Analytics Engine**
+Developed Python-based workflows for 3D well spacing, lateral geometry, and formation analysis using geospatial libraries and PostGIS.
+
+### **ETL Validation Framework**
+Automated validation and anomaly detection for pipeline outputs using Airflow scheduling and Slack-based alerts.
+
+### **AWS Cost & Monitoring Automation**
+Built dashboards and alerting workflows with AWS CloudWatch and Cost Explorer to monitor EC2, RDS, and S3 usage.
 
 ---
 
 ## 🚀 Skills & Technologies
 
-- **Programming & Scripting:** Python, SQL
-- **Data Processing & Analytics:** Pandas, Apache Spark, Polar
-- **Cloud Platforms:** AWS (S3, EC2, Glue, Redshift, MWAA, RDS, Lambda, ECS, Secrets Manager, CloudWatch)
-- **Database Systems:** PostgreSQL, MongoDB
-- **Geospatial Tools:** Pyproj, Shapely
-- **Workflow Orchestration:** Apache Airflow
-- **Machine Learning & Deep Learning:** scikit-learn, TensorFlow, PyTorch, OpenCV
-- **Alerting & Monitoring:** AWS Lambda, SNS, Slack Webhooks
+- **Programming & Scripting:** Python, SQL  
+- **Data Processing & Analytics:** Pandas, Apache Spark, Polars  
+- **Cloud Platforms:** AWS (S3, EC2, Glue, Redshift, MWAA, RDS, Lambda, ECS, ECR, SES, Secrets Manager, CloudWatch, Cost Explorer)  
+- **Database Systems:** PostgreSQL, MySQL, MongoDB  
+- **Geospatial Tools:** PyProj, Shapely, GeoPandas  
+- **Workflow Orchestration:** Apache Airflow  
+- **Machine Learning & AI:** scikit-learn, TensorFlow, PyTorch, Google Gemini API, OpenCV  
+- **Monitoring & Automation:** AWS Lambda, SNS, Slack Webhooks  
+- **DevOps / CI-CD:** Docker, Jenkins, GitHub Actions, Terraform  
 
 ---
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [LinkedIn URL](https://www.linkedin.com/in/rs-dataengineer/)
+- **LinkedIn:** [https://www.linkedin.com/in/rs-dataengineer/](https://www.linkedin.com/in/rs-dataengineer/)  
 
-Thank you for stopping by my profile! I'm always excited to connect, collaborate, and explore innovative solutions in data engineering and machine learning.
+---
+
+💬 *Thanks for visiting my profile!*  
+I’m always open to collaborating on **data engineering, geospatial analytics, or AI-powered automation** — transforming complex data challenges into scalable, intelligent solutions.
